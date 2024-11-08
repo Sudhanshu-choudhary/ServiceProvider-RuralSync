@@ -16,3 +16,17 @@ ServiceProvider-RuralSync is a platform designed to connect rural communities wi
    ```bash
    git clone https://github.com/Sudhanshu-choudhary/ServiceProvider-RuralSync.git
    cd ServiceProvider-RuralSync
+2. **Install Dependencies**  
+   ```bash
+   npm install
+3. **Set Up Environment Variables**  
+   Create a **.env** file in the root of the project and add any required environment variables. These may include database credentials, API keys, etc.
+4. **Run the Application**
+   ```bash
+   npm run dev
+
+## Technologies Used
+- **Frontend**: React, Tailwind CSS, Shadcn, TypeScript
+- **Backend**: Node.js, Express (written in TypeScript)
+- **Build Tool**: Vite
+- **Database**: MongoDB Atlas
